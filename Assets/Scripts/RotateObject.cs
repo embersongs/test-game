@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class RotateObject : MonoBehaviour
 {
-    public float rotationSpeed = 100f; // скорость поворота в градусах в секунду
+    public float rotationSpeed = 100f; // СЃРєРѕСЂРѕСЃС‚СЊ РїРѕРІРѕСЂРѕС‚Р° РІ РіСЂР°РґСѓСЃР°С… РІ СЃРµРєСѓРЅРґСѓ
 
     void Update()
     {
    
-            // Вращение влево
+            // Р’СЂР°С‰РµРЅРёРµ РІР»РµРІРѕ
             transform.Rotate(0, 0, rotationSpeed * Time.deltaTime);
     
 
